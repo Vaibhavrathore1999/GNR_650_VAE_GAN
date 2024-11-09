@@ -38,7 +38,7 @@ class MillionAIDDataset(Dataset):
         image = self.dataset[idx]['image']
         
         # Assuming 'label_1' is the primary label; adjust if you need 'label_2' or 'label_3'
-        label = self.dataset[idx]['label_1']
+        label = self.dataset[idx]['label_3']
         
         # Apply transformations if specified
         if self.transform:

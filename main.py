@@ -103,8 +103,9 @@ for epoch in range(epochs):
   c=c.detach()
   show_and_save('./logs/MILLIONAIDrec_noise_epoch_%d.png' % epoch ,make_grid((c*0.5+0.5).cpu(),8))
   show_and_save('./logs/MILLIONAIDrec_epoch_%d.png' % epoch ,make_grid((b*0.5+0.5).cpu(),8))
-
-plot_loss(prior_loss_list)
-plot_loss(recon_loss_list)
-plot_loss(gan_loss_list)
+torch.save(gen.state_dict(), 'gen_model.pkl')
+# Save each loss plot with a unique filename
+plot_loss(prior_loss_list, file_name="prior_loss_plot.png")
+plot_loss(recon_loss_list, file_name="recon_loss_plot.png")
+plot_loss(gan_loss_list, file_name="gan_loss_plot.png")
 

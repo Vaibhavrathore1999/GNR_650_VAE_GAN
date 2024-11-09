@@ -97,7 +97,6 @@ class VAE_GAN(nn.Module):
     self.decoder.apply(weights_init)
     self.discriminator.apply(weights_init)
 
-
   def forward(self,x):
     bs=x.size()[0]
     z_mean,z_logvar=self.encoder(x)
