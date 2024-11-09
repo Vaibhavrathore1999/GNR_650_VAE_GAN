@@ -18,7 +18,7 @@ $ python3 main.py
 
 * It shows that generative models trained with learned similarity measures produce better image samples than models trained with element-wise error measures.
 
-* It demonstrate that unsupervised training results in a latent image representation with disentangled factors of variation (Bengio et al., 2013). This is illustrated in experiments on a dataset of face images labelled with visual attribute vectors, where it is shown that simple arithmetic applied in the learned latent space produces images that reflect changes in these attributes.
+* It demonstrate that unsupervised training results in a latent image representation with disentangled factors of variation (Bengio et al., 2013). This is illustrated in experiments on a dataset of satellite images labelled with visual attribute vectors, where it is shown that simple arithmetic applied in the learned latent space produces images that reflect changes in these attributes.
 
 ## Variational Autoencoder
 
@@ -152,21 +152,21 @@ Estimated Total Size (MB): 483.53
 ```
 # Results
 
-## Generated images after 25 epochs(MNIST)
+## Generated images after 50 epochs(MILLION AID)
 
-![4](./images/MNISTrec_noise_epoch_24.png.png)
+![4](./images/MILLIONAIDrec_noise_epoch_50.png.png)
 
-## Reconstructed images after 25 epochs(MNIST)
+## Reconstructed images after 50 epochs(MILLION AID)
 
-![4](./images/MNISTrec_epoch_24.png.png)
+![4](./images/MILLIONAIDrec_epoch_50.png.png)
 
-## Generated images after 30 epochs(CIFAR10)
+## Generated images after 75 epochs(MILLION AID)
 
-![4](./images/rec_epoch_28.png.png)
+![4](./images/MILLIONAIDrec_noise_epoch_75.png.png)
 
-## Reconstructed images after 30 epochs(CIFAR10)
+## Reconstructed images after 75 epochs(MILLION AID)
 
-![4](./images/rec_epoch_32.png.png)
+![4](./images/MILLIONAIDrec_epoch_75.png.png)
 
 ## Plot of Prior Loss vs Iterations
 
