@@ -50,7 +50,6 @@ class MillionAIDDataset(Dataset):
 def dataloader(batch_size):
     # Load the Million-AID dataset
     dataset = load_dataset("jonathan-roberts1/Million-AID", split="train")
-
     # Define the transformations to apply to each image
     transform = transforms.Compose([
         transforms.Resize(64),
