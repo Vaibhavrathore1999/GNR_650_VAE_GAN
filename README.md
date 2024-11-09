@@ -170,15 +170,15 @@ Estimated Total Size (MB): 483.53
 
 ## Plot of Prior Loss vs Iterations
 
-![4](./images/kl_divergence.png)
+![4](./images/prior_loss_plot.png)
 
 ## Plot of GAN Loss vs Iterations
 
-![4](./images/gan_loss.png)
+![4](./images/gan_loss_plot.png)
 
 ## Plot of Reconstruction Loss vs Iterations
 
-![4](./images/recon_loss.png)
+![4](./images/recon_loss_plot.png)
 
 
 
