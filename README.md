@@ -6,10 +6,33 @@
 * **Tags**: Neural Network, Generative Networks, GANs
 * **Year**: 2016
 
-### Usage
+
+## Installation
+
+To set up the project, clone the repository and install the necessary dependencies:
+
+```bash
+$ git clone https://github.com/Vaibhavrathore1999/GNR_650_VAE_GAN.git
+$ cd GNR_650_VAE_GAN
+$ pip install -r requirements.txt
+
+### For training
 ```bash
 $ python3 main.py 
 ```
+
+## Checkpoint (If you want to do direct inference)
+
+Download the pre-trained model checkpoint from the following link:
+
+[Download Model Checkpoint](https://drive.google.com/uc?id=1-8EfGn5l1Sgv2d8IBAGdwvEgiKSef2Yy&export=download)
+
+
+### For Inference
+```bash
+$ python3 inference.py 
+```
+
 # Summary
 
 ## Introduction
